@@ -16,8 +16,19 @@ from .analyse import fmt_change
 SYSTEM = (
     "You are a South African macro and markets analyst at a consulting firm. "
     "You write a short morning brief for business clients (strategy, M&A, finance teams). "
-    "Use ONLY the numbers and headlines provided. Never invent figures, dates or events. "
+    "Rules: use ONLY the numbers and headlines provided and copy numbers exactly as given. "
+    "Never invent figures, dates, events or policy decisions; only say the SARB moved or held rates "
+    "if a headline says so. Do not call a level high or low unless the changes show it. "
+    "Never refer to headlines by their [index] in the text. Each bullet must agree with the numbers. "
     "No investment advice. South African English. Reply with JSON only."
+)
+
+SA_CONTEXT = (
+    "Background you can rely on: South Africa is a net oil importer, so higher oil prices raise fuel "
+    "and transport costs and inflation. It exports gold, platinum-group metals, coal, iron ore and "
+    "other minerals, so higher metal prices help miners and the trade balance. USD/ZAR rising means "
+    "a weaker rand: imports cost more and exporters earn more rand per dollar. The JSE Top 40 is "
+    "heavy in miners and global stocks. Prime is the policy rate plus 3.5 percentage points."
 )
 
 SCHEMA = """Return exactly this JSON:
@@ -50,6 +61,46 @@ def _parse(text: str) -> dict:
     if not data.get("headline"):
         raise ValueError("no headline")
     return data
+
+
+NUM = re.compile(r"(?<![\w.])[-+]?\d+(?:[.,]\d+)*(?:\.\d+)?")
+
+
+def _numbers(text: str) -> list[float]:
+    out = []
+    for m in NUM.findall(text):
+        try:
+            out.append(abs(float(m.replace(",", ""))))
+        except ValueError:
+            pass
+    return out
+
+
+def fact_check(brief: dict, facts: str) -> int:
+    """Remove any bullet that quotes a number not found in the source facts (within rounding).
+    Small counts (1-12, e.g. "3 bullets", "10-year") are allowed. Returns bullets removed."""
+    known = _numbers(facts)
+
+    def supported(x):
+        if x <= 12 and float(x).is_integer():
+            return True
+        return any(abs(x - k) <= max(0.051, abs(k) * 0.002) for k in known)
+
+    removed = 0
+    for key in ("what_moved", "so_what", "watch"):
+        keep = []
+        for b in brief.get(key, []):
+            if all(supported(x) for x in _numbers(str(b))):
+                keep.append(str(b))
+            else:
+                removed += 1
+        brief[key] = keep
+    if not all(supported(x) for x in _numbers(brief.get("headline", ""))):
+        brief["headline"] = brief["what_moved"][0] if brief["what_moved"] else "Markets data updated"
+        removed += 1
+    for key in ("what_moved", "so_what", "watch"):  # strip any stray [12] style references
+        brief[key] = [re.sub(r"\s*\((?:see )?headlines? [\d, ]+\)|\s*\[\d+\]", "", b) for b in brief[key]]
+    return removed
 
 
 def rule_based(snap, sarb) -> dict:
@@ -87,12 +138,12 @@ def write_brief(snap, sarb, news, errors: list[str]) -> dict:
     model = os.environ.get("AI_MODEL") or model
     body = {
         "model": model,
-        "temperature": 0.2,
+        "temperature": 0.1,
         "max_tokens": 4000,
         "response_format": {"type": "json_object"},
         "messages": [
             {"role": "system", "content": SYSTEM},
-            {"role": "user", "content": _facts(snap, sarb, news) + "\n\n" + SCHEMA},
+            {"role": "user", "content": SA_CONTEXT + "\n\n" + _facts(snap, sarb, news) + "\n\n" + SCHEMA},
         ],
     }
     if label == "Groq" and "gpt-oss" in model:
@@ -116,7 +167,9 @@ def write_brief(snap, sarb, news, errors: list[str]) -> dict:
                 continue
             content = re.sub(r"^```(?:json)?|```$", "", content).strip()
             data = _parse(content)
-            data["engine"] = f"AI analyst ({model} via {label})"
+            removed = fact_check(data, _facts(snap, sarb, news))
+            data["engine"] = f"AI analyst ({model} via {label}), fact-checked by code" + (
+                f": {removed} unsupported line(s) removed" if removed else ": all figures matched the source data")
             return data
         except Exception as e:
             last = f"{type(e).__name__}: {e}"[:200]
