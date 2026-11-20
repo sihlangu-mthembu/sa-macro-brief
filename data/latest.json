@@ -1,37 +1,29 @@
 {
-  "run": "2026-11-20T16:37:11+02:00",
+  "run": "2026-11-20T16:38:13+02:00",
   "brief": {
-    "headline": "SARB held policy rate at 7.25% as rand slides to near\u2011year low",
+    "headline": "SARB held rates at 7.25% as the rand weakens to near one\u2011year lows",
     "what_moved": [
-      "USD/ZAR at 17.43, up 0.9% on the day and 4.0% week\u2011on\u2011week",
-      "JSE Top 40 at 9,784, down 1.5% daily and 7.0% weekly",
-      "Brent crude at $88.75, up 45.9% YTD and 40.0% over 1\u202fyr",
-      "Gold at $3,572, down 3.1% daily and 13.8% monthly"
+      "USD/ZAR up 0.9% to 17.43 R/$ (1D) and 4.0% week\u2011on\u2011week, signalling a weaker rand",
+      "JSE Top 40 down 1.5% to 9,784 points (1D) and 7.0% down week\u2011on\u2011week",
+      "Brent crude fell 3.5% to $88.8/bbl (1D) after a 18.4% monthly drop but up 45.9% YTD",
+      "Prime lending rate at 10.75%, equal to policy rate plus 3.5 points"
     ],
     "so_what": [
-      "Importers will feel higher costs as a weaker rand raises import prices",
-      "Exporters gain a modest rand\u2011per\u2011dollar boost but face global demand uncertainty",
-      "Borrowers see no rate change; prime remains 10.75% despite currency pressure",
-      "Miners see lower equity valuations but benefit from higher metal prices"
+      "Importers face higher costs as a weaker rand raises the price of imported inputs and fuel",
+      "Exporters gain marginally more rand per dollar, but lower commodity prices hurt miners and trade balance",
+      "Borrowers see no change in policy rate, but a weaker rand could increase foreign\u2011currency debt servicing",
+      "Deal teams should factor currency risk and lower equity valuations into M&A pricing"
     ],
     "watch": [
-      "SARB\u2019s next policy decision amid split MPC views",
-      "Rand volatility ahead of coalition talks and carry\u2011trade appeal",
-      "Oil price trajectory influencing transport costs and inflation"
+      "Oil price rebound could lift inflation pressures despite recent Brent decline"
     ],
     "headline_refs": [
       22,
-      23,
-      24,
-      1,
       4,
       5,
-      8,
-      9,
-      13,
       20
     ],
-    "engine": "AI analyst (openai/gpt-oss-120b via Groq), fact-checked by code: all figures matched the source data"
+    "engine": "AI analyst (openai/gpt-oss-120b via Groq), fact-checked by code: 1 unsupported line(s) removed"
   },
   "errors": [],
   "markets": [
@@ -43,13 +35,13 @@
       "kind": "price",
       "group": "Rand",
       "date": "2026-11-20T00:00:00",
-      "value": 17.433460235595703,
+      "value": 17.43195915222168,
       "chg": {
-        "1D": 0.009479002748740806,
-        "1W": 0.040284983204347036,
-        "1M": 0.06180963932653594,
-        "YTD": 0.05112848932265801,
-        "1Y": 0.014824064781546076
+        "1D": 0.00939208299058758,
+        "1W": 0.04019541094092771,
+        "1M": 0.061718213713121806,
+        "YTD": 0.051037983394519815,
+        "1Y": 0.014736684794405486
       }
     },
     {
@@ -60,13 +52,13 @@
       "kind": "price",
       "group": "Rand",
       "date": "2026-11-20T00:00:00",
-      "value": 19.147539138793945,
+      "value": 19.147340774536133,
       "chg": {
-        "1D": 0.01096308324241324,
-        "1W": 0.03442620957537401,
-        "1M": 0.03997935130014696,
-        "YTD": -0.017420895815729587,
-        "1Y": -0.0340858467199624
+        "1D": 0.010952609889141485,
+        "1W": 0.03441549314931858,
+        "1M": 0.039968577344775325,
+        "YTD": -0.01743107511727482,
+        "1Y": -0.03409585337631316
       }
     },
     {
@@ -77,13 +69,13 @@
       "kind": "price",
       "group": "Rand",
       "date": "2026-11-20T00:00:00",
-      "value": 22.853649139404297,
+      "value": 22.85700035095215,
       "chg": {
-        "1D": 0.006737606082489966,
-        "1W": 0.030813438753336087,
-        "1M": 0.04595275467651594,
-        "YTD": 0.023450479959129966,
-        "1Y": 0.018593794258895402
+        "1D": 0.006885231989870455,
+        "1W": 0.03096459509071403,
+        "1M": 0.04610613101167371,
+        "YTD": 0.02360055660755367,
+        "1Y": 0.01874315873303556
       }
     },
     {
@@ -111,13 +103,13 @@
       "kind": "price",
       "group": "Equities",
       "date": "2026-11-20T00:00:00",
-      "value": 7153.58984375,
+      "value": 7144.33984375,
       "chg": {
-        "1D": -0.00309932567143667,
-        "1W": -0.053966925605212324,
-        "1M": -0.07247648879799573,
-        "YTD": 0.0450061856328976,
-        "1Y": 0.09402854672184646
+        "1D": -0.004388375147147849,
+        "1W": -0.055190200370650144,
+        "1M": -0.07367582964168617,
+        "YTD": 0.043654932985172756,
+        "1Y": 0.09261390536300218
       }
     },
     {
@@ -128,13 +120,13 @@
       "kind": "price",
       "group": "Equities",
       "date": "2026-11-20T00:00:00",
-      "value": 55.654998779296875,
+      "value": 55.61000061035156,
       "chg": {
-        "1D": -0.01929517569520922,
-        "1W": -0.08642481201406749,
-        "1M": -0.12105181542118493,
-        "YTD": 0.017272888149113985,
-        "1Y": 0.04791937751266517
+        "1D": -0.02008809497177866,
+        "1W": -0.08716345564994754,
+        "1M": -0.12176246243890732,
+        "YTD": 0.016450402868574354,
+        "1Y": 0.04707211393841959
       }
     },
     {
@@ -145,13 +137,13 @@
       "kind": "price",
       "group": "Commodities",
       "date": "2026-11-20T00:00:00",
-      "value": 3572.300048828125,
+      "value": 3572.199951171875,
       "chg": {
-        "1D": -0.030714950799586194,
-        "1W": -0.0807966436082782,
-        "1M": -0.13766717408971785,
-        "YTD": -0.17709797782437642,
-        "1Y": -0.12012314068272778
+        "1D": -0.03074211065747523,
+        "1W": -0.08082240015177511,
+        "1M": -0.13769133709215353,
+        "YTD": -0.17712103595572526,
+        "1Y": -0.12014779527786335
       }
     },
     {
@@ -162,13 +154,13 @@
       "kind": "price",
       "group": "Commodities",
       "date": "2026-11-20T00:00:00",
-      "value": 1312.4000244140625,
+      "value": 1312.199951171875,
       "chg": {
-        "1D": -0.0261204747770718,
-        "1W": -0.11830700408863792,
-        "1M": -0.20296365609561662,
-        "YTD": -0.35492748861437085,
-        "1Y": -0.1286681271016039
+        "1D": -0.026268941121544986,
+        "1W": -0.11844141674714481,
+        "1M": -0.20308516298566526,
+        "YTD": -0.3550258288661219,
+        "1Y": -0.1288009602238145
       }
     },
     {
@@ -179,13 +171,13 @@
       "kind": "price",
       "group": "Commodities",
       "date": "2026-11-20T00:00:00",
-      "value": 88.75,
+      "value": 88.80000305175781,
       "chg": {
-        "1D": -0.0351163648516013,
-        "1W": -0.07397742705346466,
-        "1M": -0.18420811422814398,
-        "YTD": 0.4585045558833416,
-        "1Y": 0.4002839776638585
+        "1D": -0.03457273525894111,
+        "1W": -0.07345569235325122,
+        "1M": -0.18374848511391462,
+        "YTD": 0.4593262987430242,
+        "1Y": 0.4010729181958108
       }
     },
     {
@@ -196,13 +188,13 @@
       "kind": "price",
       "group": "Commodities",
       "date": "2026-11-20T00:00:00",
-      "value": 5.542500019073486,
+      "value": 5.546000003814697,
       "chg": {
-        "1D": -0.014666663275824665,
-        "1W": -0.08832965898006817,
-        "1M": -0.1559430653617263,
-        "YTD": -0.015541757298191627,
-        "1Y": 0.11755221340614797
+        "1D": -0.014044443766276005,
+        "1W": -0.08775395626981042,
+        "1M": -0.15541005924864004,
+        "YTD": -0.014920090394094476,
+        "1Y": 0.11825792665485668
       }
     },
     {
