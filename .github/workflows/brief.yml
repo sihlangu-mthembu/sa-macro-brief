@@ -39,6 +39,17 @@ jobs:
           BRIEF_TO: ${{ secrets.BRIEF_TO }}
         run: python -m brief.main
 
+      - name: AI endpoint diagnostics (temporary)
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "== catalog"; curl -sS -i https://models.github.ai/catalog/models -H "Authorization: Bearer $GITHUB_TOKEN" | head -c 600; echo
+            echo "== minimal chat, gpt-4.1-mini"; curl -sS -i -X POST https://models.github.ai/inference/chat/completions -H "Authorization: Bearer $GITHUB_TOKEN" -H "Content-Type: application/json" -d '{"model":"openai/gpt-4.1-mini","messages":[{"role":"user","content":"Say hi"}]}' | head -c 900; echo
+            echo "== minimal chat, gpt-4o-mini"; curl -sS -i -X POST https://models.github.ai/inference/chat/completions -H "Authorization: Bearer $GITHUB_TOKEN" -H "Content-Type: application/json" -d '{"model":"openai/gpt-4o-mini","messages":[{"role":"user","content":"Say hi"}]}' | head -c 900; echo
+          } > data/ai-debug.txt 2>&1 || true
+
       - name: Save the workbook to the repo
         run: |
           git config user.name "github-actions[bot]"
