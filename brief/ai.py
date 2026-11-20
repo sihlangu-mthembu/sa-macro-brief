@@ -88,13 +88,15 @@ def write_brief(snap, sarb, news, errors: list[str]) -> dict:
     body = {
         "model": model,
         "temperature": 0.2,
-        "max_tokens": 1500,
+        "max_tokens": 4000,
         "response_format": {"type": "json_object"},
         "messages": [
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": _facts(snap, sarb, news) + "\n\n" + SCHEMA},
         ],
     }
+    if label == "Groq" and "gpt-oss" in model:
+        body["reasoning_effort"] = "low"  # reasoning model: keep thinking short so the JSON isn't cut off
     headers = {"Authorization": f"Bearer {os.environ[key]}", "Content-Type": "application/json"}
     attempts = [body, body, {k: v for k, v in body.items() if k != "response_format"}]
     last = None
@@ -106,7 +108,12 @@ def write_brief(snap, sarb, news, errors: list[str]) -> dict:
             if r.status_code != 200:
                 last = f"HTTP {r.status_code}: {r.text[:160]}"
                 continue
-            content = (r.json()["choices"][0]["message"].get("content") or "").strip()
+            choice = r.json()["choices"][0]
+            content = (choice["message"].get("content") or "").strip()
+            if choice.get("finish_reason") == "length":
+                last = "reply cut off at the token limit"
+                payload_body = {**payload_body, "max_tokens": 8000}
+                continue
             content = re.sub(r"^```(?:json)?|```$", "", content).strip()
             data = _parse(content)
             data["engine"] = f"AI analyst ({model} via {label})"
