@@ -1,0 +1,18 @@
+== catalog
+HTTP/2 200 
+content-type: text/plain
+
+OK
+
+== minimal chat, gpt-4.1-mini
+HTTP/2 200 
+content-type: text/plain
+
+OK
+
+== minimal chat, gpt-4o-mini
+HTTP/2 200 
+content-type: text/plain
+
+OK
+
