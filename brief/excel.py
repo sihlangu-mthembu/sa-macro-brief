@@ -191,7 +191,7 @@ def build(path, run_ts: dt.datetime, markets: pd.DataFrame, snap, sarb, news, br
         hs.freeze_panes = "B5"
 
     # ------------------------------------------------ Charts
-    title(ch_ws, "Charts: last 12 months", "Drawn from the Market data sheet.")
+    title(ch_ws, "Charts: last 13 months", "Drawn from the Market data sheet.")
     col_of = {k: 2 + j for j, k in enumerate(keys)}
     dates = Reference(md, min_col=1, min_row=5, max_row=md_last)
     specs = [("USD/ZAR (rand per dollar; up = weaker rand)", ["usdzar"]),

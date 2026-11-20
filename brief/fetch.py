@@ -9,6 +9,7 @@ import re
 import time
 from email.utils import parsedate_to_datetime
 
+import numpy as np
 import pandas as pd
 import requests
 
@@ -42,7 +43,8 @@ def fetch_markets(errors: list[str]) -> pd.DataFrame:
         s = None
         for attempt in range(3):
             try:
-                h = yf.Ticker(ticker).history(period="400d", interval="1d", auto_adjust=False)
+                start = (dt.date.today() - dt.timedelta(days=400)).isoformat()
+                h = yf.Ticker(ticker).history(start=start, interval="1d", auto_adjust=False)
                 if not h.empty:
                     s = h["Close"].dropna()
                     s.index = pd.to_datetime(s.index.date)
@@ -53,10 +55,26 @@ def fetch_markets(errors: list[str]) -> pd.DataFrame:
         if s is None or s.empty:
             errors.append(f"Yahoo Finance: no data for {label} ({ticker})")
             continue
-        cols[key] = s[~s.index.duplicated(keep="last")]
+        s = s[~s.index.duplicated(keep="last")]
+        s, dropped = clean_series(s)
+        if dropped:
+            errors.append(f"{label}: removed {dropped} bad price tick(s) from Yahoo data")
+        cols[key] = s
     df = pd.DataFrame(cols).sort_index()
     df.index.name = "date"
     return df
+
+
+def clean_series(s: pd.Series, jump: float = 0.25):
+    """Drop non-positive prices and one-day spikes that fully reverse the next day
+    (a classic bad tick in free data). Returns (clean series, number dropped)."""
+    n0 = len(s)
+    s = s[s > 0]
+    r = np.log(s)
+    prev, nxt = r - r.shift(1), r.shift(-1) - r
+    spike = (prev.abs() > jump) & (nxt.abs() > jump) & (np.sign(prev) != np.sign(nxt))
+    s = s[~spike.fillna(False)]
+    return s, n0 - len(s)
 
 
 def fetch_ecb_fx(start: dt.date, errors: list[str]) -> pd.DataFrame:
