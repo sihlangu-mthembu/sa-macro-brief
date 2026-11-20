@@ -27,6 +27,7 @@ Clean & compute ── drops bad price ticks; 1D / 1W / 1M / YTD / 1Y changes
    │
    ▼
 AI analyst ── headline, what moved, so-what for business, what to watch (JSON, facts only)
+   │            ├─ code fact-check: drops any line quoting a number not in the data
    │            └─ rule-based fallback if the AI is unavailable
    ▼
 Excel workbook ── committed to reports/, history appended to data/history.csv
@@ -50,7 +51,8 @@ Built like an analyst's model: blue = source data, black = formulas, green = cro
 ![Charts sheet](docs/charts-preview.png)
 
 ## Design decisions
-- **Rules and code do the maths, AI does the words.** The AI only sees numbers the code has already computed and is told never to invent figures. If it fails, a rule-based brief still goes out.
+- **Rules and code do the maths, AI does the words.** The AI only sees numbers the code has already computed, plus a short brief on how SA's economy works (net oil importer, metals exporter, what a weaker rand means). If it fails, a rule-based brief still goes out.
+- **The AI is fact-checked by code.** Every number the AI quotes is matched against the source data; any bullet with a figure that isn't there is removed, and the brief says how many were removed.
 - **No silent failures.** Each source is retried and wrapped separately. Anything that fails is listed under "Data issues this run" at the bottom of the brief, and the run only stops if there is no market data at all.
 - **Free data is messy.** Free price feeds sometimes contain a one-day zero or spike, so the pipeline removes ticks that jump more than 25% and reverse the next day, and it logs how many it removed.
 - **Zero cost, zero servers.** GitHub Actions is free for public repos, every data source is key-less, and the AI uses a free tier with one call a day.

@@ -19,7 +19,9 @@ SYSTEM = (
     "Rules: use ONLY the numbers and headlines provided and copy numbers exactly as given. "
     "Never invent figures, dates, events or policy decisions; only say the SARB moved or held rates "
     "if a headline says so. Do not call a level high or low unless the changes show it. "
-    "Never refer to headlines by their [index] in the text. Each bullet must agree with the numbers. "
+    "Never refer to headlines by their [index] in the text. Each bullet must agree with the numbers: "
+    "before saying a price is higher or lower, check the sign of its change for the period you mean, "
+    "and name that period (on the day, this week, this month, year to date). "
     "No investment advice. South African English. Reply with JSON only."
 )
 
