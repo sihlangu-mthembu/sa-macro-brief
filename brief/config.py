@@ -39,4 +39,3 @@ NEWS_TAGS = {
 }
 
 MAX_HEADLINES = 25
-GITHUB_MODEL = "openai/gpt-4.1-mini"

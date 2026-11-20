@@ -1,18 +1,17 @@
-"""AI analyst step. Uses GitHub Models, which is free inside GitHub Actions with the
-built-in GITHUB_TOKEN (no API key to manage). If the call fails, a rule-based brief is
-written instead, so the workbook always goes out."""
+"""AI analyst step. Uses a free OpenAI-compatible API: Groq (default) or Google Gemini,
+whichever key is set as a repository secret. If no key is set or the call fails, a
+rule-based brief is written instead, so the workbook always goes out."""
 from __future__ import annotations
 
 import json
 import os
 import re
+import time
 
 import requests
 
 from . import config
 from .analyse import fmt_change
-
-ENDPOINT = "https://models.github.ai/inference/chat/completions"
 
 SYSTEM = (
     "You are a South African macro and markets analyst at a consulting firm. "
@@ -72,53 +71,47 @@ def rule_based(snap, sarb) -> dict:
             "engine": "Rule-based fallback (AI unavailable)"}
 
 
+PROVIDERS = [
+    # (secret name, endpoint, model, label) - the first one with a key set is used
+    ("GROQ_API_KEY", "https://api.groq.com/openai/v1/chat/completions", "openai/gpt-oss-120b", "Groq"),
+    ("GEMINI_API_KEY", "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", "gemini-flash-latest", "Google Gemini"),
+]
+
+
 def write_brief(snap, sarb, news, errors: list[str]) -> dict:
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_MODELS_TOKEN")
-    if not token:
-        errors.append("AI: no GITHUB_TOKEN, used rule-based brief")
+    provider = next(((k, url, model, label) for k, url, model, label in PROVIDERS if os.environ.get(k)), None)
+    if not provider:
+        errors.append("AI: no GROQ_API_KEY or GEMINI_API_KEY secret set, used rule-based brief")
         return rule_based(snap, sarb)
+    key, url, model, label = provider
+    model = os.environ.get("AI_MODEL") or model
     body = {
-        "model": config.GITHUB_MODEL,
+        "model": model,
         "temperature": 0.2,
-        "max_tokens": 900,
+        "max_tokens": 1500,
         "response_format": {"type": "json_object"},
         "messages": [
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": _facts(snap, sarb, news) + "\n\n" + SCHEMA},
         ],
     }
-    base = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
-            "Content-Type": "application/json"}
-    # newest documented API version first; then no version header; then without response_format
-    attempts = [({**base, "X-GitHub-Api-Version": "2026-03-10"}, body),
-                (base, body),
-                (base, {k: v for k, v in body.items() if k != "response_format"})]
+    headers = {"Authorization": f"Bearer {os.environ[key]}", "Content-Type": "application/json"}
+    attempts = [body, body, {k: v for k, v in body.items() if k != "response_format"}]
     last = None
-    for headers, payload_body in attempts:
+    for i, payload_body in enumerate(attempts):
+        if i:
+            time.sleep(4 * i)
         try:
-            r = requests.post(ENDPOINT, json=payload_body, headers=headers, timeout=60)
+            r = requests.post(url, json=payload_body, headers=headers, timeout=90)
             if r.status_code != 200:
                 last = f"HTTP {r.status_code}: {r.text[:160]}"
                 continue
-            try:
-                payload = r.json()
-            except ValueError:
-                last = (f"non-JSON reply: status {r.status_code}, type {r.headers.get('content-type')}, "
-                        f"url {r.url}, redirects {[h.status_code for h in r.history]}, body {r.text[:150]!r}")
-                continue
-            content = (payload["choices"][0]["message"].get("content") or "").strip()
+            content = (r.json()["choices"][0]["message"].get("content") or "").strip()
             content = re.sub(r"^```(?:json)?|```$", "", content).strip()
-            if not content:
-                last = f"empty reply: {r.text[:200]}"
-                continue
-            try:
-                data = _parse(content)
-            except Exception as e:
-                last = f"unparseable reply ({type(e).__name__}): {content[:160]!r}"
-                continue
-            data["engine"] = f"AI analyst ({config.GITHUB_MODEL} via GitHub Models)"
+            data = _parse(content)
+            data["engine"] = f"AI analyst ({model} via {label})"
             return data
         except Exception as e:
             last = f"{type(e).__name__}: {e}"[:200]
-    errors.append(f"AI: {last}; used rule-based brief")
+    errors.append(f"AI ({label}): {last}; used rule-based brief")
     return rule_based(snap, sarb)

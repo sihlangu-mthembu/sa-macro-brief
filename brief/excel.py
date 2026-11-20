@@ -346,7 +346,7 @@ def build(path, run_ts: dt.datetime, markets: pd.DataFrame, snap, sarb, news, br
         ("Rand fallback", "European Central Bank reference rates via api.frankfurter.app, used only if Yahoo fails."),
         ("SARB", "South African Reserve Bank web API: policy rate, prime, CPI, PPI, government bond yields, ZARONIA, SABOR, official rand rates."),
         ("News", "RSS: Google News (SA economy query), Moneyweb, BusinessTech, Daily Maverick. Last 36 hours, de-duplicated, tagged by keyword."),
-        ("AI analyst", "GitHub Models (free inside GitHub Actions). It sees only the figures and headlines in this workbook and is told not to invent facts. A rule-based summary is used if it is unavailable."),
+        ("AI analyst", "A free AI model (Groq or Google Gemini API). It sees only the figures and headlines in this workbook and is told not to invent facts. A rule-based summary is used if it is unavailable."),
         ("Colour code", "Blue = data from a source. Black = formulas. Green = links to another sheet. Changes: green up, red down (for USD/ZAR, up means a weaker rand)."),
         ("Change maths", "Prices: latest / reference - 1. Yields: latest - reference, in percentage points. Reference = last close on or before the reference date."),
         ("Disclaimer", "For information only. Not investment advice. Check figures against the original sources before relying on them."),
