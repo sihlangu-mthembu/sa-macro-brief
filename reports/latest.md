@@ -1,12 +1,12 @@
 # SA Macro & Markets Brief: Friday 20 November 2026
 
-**Brent crude -3.6% on the day to 88.68 $/bbl**
+**Brent crude -3.6% on the day to 88.69 $/bbl**
 
 ### What moved
-- Brent crude -3.6% on the day to 88.68 $/bbl.
-- Gold -2.9% on the day to 3579 $/oz.
-- Platinum -2.7% on the day to 1311 $/oz.
-- S&P 500 -2.0% on the day to 7176 points.
+- Brent crude -3.6% on the day to 88.69 $/bbl.
+- Gold -2.8% on the day to 3582 $/oz.
+- Platinum -2.6% on the day to 1313 $/oz.
+- Emerging markets (MSCI EM ETF) -2.0% on the day to 55.64 $.
 
 ### So what for business
 - A weaker rand over the month (+6.2% USD/ZAR) raises import costs and helps exporters.
@@ -19,12 +19,12 @@
 | EUR/ZAR | 19.15 R per € | 20 Nov | +1.1% | +3.5% | +4.0% | -1.7% | -3.4% |
 | GBP/ZAR | 22.86 R per £ | 20 Nov | +0.7% | +3.1% | +4.6% | +2.4% | +1.9% |
 | JSE Top 40 (Satrix 40 ETF) | 9,784 ZAc | 20 Nov | -1.5% | -7.0% | -6.3% | -9.8% | -6.7% |
-| S&P 500 | 7,176 points | 19 Nov | -2.0% | -5.5% | -6.7% | +4.8% | +8.0% |
-| Emerging markets (MSCI EM ETF) | 56.75 $ | 19 Nov | -2.0% | -7.2% | -10.4% | +3.7% | +5.4% |
-| Gold | 3,579 $/oz | 20 Nov | -2.9% | -7.9% | -13.6% | -17.6% | -11.9% |
-| Platinum | 1,311 $/oz | 20 Nov | -2.7% | -11.9% | -20.4% | -35.5% | -12.9% |
-| Brent crude | 88.68 $/bbl | 20 Nov | -3.6% | -7.5% | -18.5% | +45.7% | +39.9% |
-| Copper | 5.555 $/lb | 20 Nov | -1.3% | -8.6% | -15.4% | -1.3% | +12.0% |
+| S&P 500 | 7,141 points | 20 Nov | -0.5% | -5.6% | -7.4% | +4.3% | +9.2% |
+| Emerging markets (MSCI EM ETF) | 55.64 $ | 20 Nov | -2.0% | -8.7% | -12.1% | +1.7% | +4.8% |
+| Gold | 3,582 $/oz | 20 Nov | -2.8% | -7.8% | -13.5% | -17.5% | -11.8% |
+| Platinum | 1,313 $/oz | 20 Nov | -2.6% | -11.8% | -20.3% | -35.5% | -12.8% |
+| Brent crude | 88.69 $/bbl | 20 Nov | -3.6% | -7.5% | -18.5% | +45.8% | +39.9% |
+| Copper | 5.552 $/lb | 20 Nov | -1.3% | -8.7% | -15.4% | -1.4% | +12.0% |
 | US 10-year Treasury yield | 4.988 % | 20 Nov | -0.06 pp | -0.17 pp | -0.13 pp | +0.82 pp | +0.88 pp |
 
 ### SARB indicators
