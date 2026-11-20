@@ -1,11 +1,11 @@
 # SA Macro & Markets Brief: Friday 20 November 2026
 
-**Brent crude -3.3% on the day to 88.97 $/bbl**
+**Brent crude -3.2% on the day to 89.04 $/bbl**
 
 ### What moved
-- Brent crude -3.3% on the day to 88.97 $/bbl.
-- Gold -2.9% on the day to 3580 $/oz.
-- Platinum -2.3% on the day to 1317 $/oz.
+- Brent crude -3.2% on the day to 89.04 $/bbl.
+- Gold -2.8% on the day to 3581 $/oz.
+- Platinum -2.3% on the day to 1316 $/oz.
 - S&P 500 -2.0% on the day to 7176 points.
 
 ### So what for business
@@ -15,17 +15,17 @@
 ### Markets
 | Indicator | Latest | As of | 1D | 1W | 1M | YTD | 1Y |
 |---|---:|---|---:|---:|---:|---:|---:|
-| USD/ZAR (up = weaker rand) | 17.42 R per $ | 20 Nov | +0.9% | +3.9% | +6.1% | +5.0% | +1.4% |
+| USD/ZAR (up = weaker rand) | 17.42 R per $ | 20 Nov | +0.9% | +4.0% | +6.1% | +5.0% | +1.4% |
 | EUR/ZAR | 19.14 R per € | 20 Nov | +1.1% | +3.4% | +4.0% | -1.8% | -3.4% |
-| GBP/ZAR | 22.84 R per £ | 20 Nov | +0.6% | +3.0% | +4.6% | +2.3% | +1.8% |
+| GBP/ZAR | 22.85 R per £ | 20 Nov | +0.6% | +3.1% | +4.6% | +2.3% | +1.8% |
 | JSE Top 40 (Satrix 40 ETF) | 9,743 ZAc | 20 Nov | -1.9% | -7.4% | -6.7% | -10.2% | -7.1% |
 | S&P 500 | 7,176 points | 19 Nov | -2.0% | -5.5% | -6.7% | +4.8% | +8.0% |
 | Emerging markets (MSCI EM ETF) | 56.75 $ | 19 Nov | -2.0% | -7.2% | -10.4% | +3.7% | +5.4% |
-| Gold | 3,580 $/oz | 20 Nov | -2.9% | -7.9% | -13.6% | -17.5% | -11.8% |
-| Platinum | 1,317 $/oz | 20 Nov | -2.3% | -11.5% | -20.0% | -35.3% | -12.5% |
-| Brent crude | 88.97 $/bbl | 20 Nov | -3.3% | -7.2% | -18.2% | +46.2% | +40.4% |
-| Copper | 5.557 $/lb | 20 Nov | -1.2% | -8.6% | -15.4% | -1.3% | +12.0% |
-| US 10-year Treasury yield | 4.988 % | 20 Nov | -0.06 pp | -0.17 pp | -0.13 pp | +0.82 pp | +0.88 pp |
+| Gold | 3,581 $/oz | 20 Nov | -2.8% | -7.9% | -13.6% | -17.5% | -11.8% |
+| Platinum | 1,316 $/oz | 20 Nov | -2.3% | -11.6% | -20.1% | -35.3% | -12.6% |
+| Brent crude | 89.04 $/bbl | 20 Nov | -3.2% | -7.1% | -18.2% | +46.3% | +40.5% |
+| Copper | 5.555 $/lb | 20 Nov | -1.2% | -8.6% | -15.4% | -1.3% | +12.0% |
+| US 10-year Treasury yield | 4.99 % | 20 Nov | -0.06 pp | -0.16 pp | -0.13 pp | +0.83 pp | +0.88 pp |
 
 ### SARB indicators
 | Indicator | Value | As of |
