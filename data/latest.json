@@ -1,0 +1,319 @@
+{
+  "run": "2026-11-20T16:19:41+02:00",
+  "brief": {
+    "headline": "Brent crude -3.2% on the day to 89.01 $/bbl",
+    "what_moved": [
+      "Brent crude -3.2% on the day to 89.01 $/bbl.",
+      "Gold -3.1% on the day to 3570 $/oz.",
+      "Platinum -2.2% on the day to 1318 $/oz.",
+      "S&P 500 -2.0% on the day to 7176 points."
+    ],
+    "so_what": [
+      "A weaker rand over the month (+6.2% USD/ZAR) raises import costs and helps exporters.",
+      "The SARB policy rate is 7.25% (prime 10.75%): the base for borrowing costs and deal financing."
+    ],
+    "watch": [],
+    "headline_refs": [],
+    "engine": "Rule-based fallback (AI unavailable)"
+  },
+  "errors": [
+    "News feed BusinessTech: https://businesstech.co.za/news/feed/: HTTP 403",
+    "News feed Daily Maverick: https://www.dailymaverick.co.za/section/business-maverick/feed/: HTTP 404",
+    "AI: JSONDecodeError: Expecting value: line 1 column 1 (char 0); used rule-based brief"
+  ],
+  "markets": [
+    {
+      "key": "usdzar",
+      "label": "USD/ZAR (up = weaker rand)",
+      "ticker": "ZAR=X",
+      "unit": "R per $",
+      "kind": "price",
+      "group": "Rand",
+      "date": "2026-11-20T00:00:00",
+      "value": 17.434419631958008,
+      "chg": {
+        "1D": 0.009534556291753482,
+        "1W": 0.040342232058857785,
+        "1M": 0.06186807272367356,
+        "YTD": 0.05118633491586455,
+        "1Y": 0.014879912473454215
+      }
+    },
+    {
+      "key": "eurzar",
+      "label": "EUR/ZAR",
+      "ticker": "EURZAR=X",
+      "unit": "R per \u20ac",
+      "kind": "price",
+      "group": "Rand",
+      "date": "2026-11-20T00:00:00",
+      "value": 19.15365982055664,
+      "chg": {
+        "1D": 0.011286246614035322,
+        "1W": 0.03475687314471876,
+        "1M": 0.04031178998080165,
+        "YTD": -0.01710680563631839,
+        "1Y": -0.03377708364082954
+      }
+    },
+    {
+      "key": "gbpzar",
+      "label": "GBP/ZAR",
+      "ticker": "GBPZAR=X",
+      "unit": "R per \u00a3",
+      "kind": "price",
+      "group": "Rand",
+      "date": "2026-11-20T00:00:00",
+      "value": 22.86012077331543,
+      "chg": {
+        "1D": 0.007022691286668659,
+        "1W": 0.03110534168601853,
+        "1M": 0.0462489447193104,
+        "YTD": 0.023740297869261795,
+        "1Y": 0.018882236866042623
+      }
+    },
+    {
+      "key": "top40",
+      "label": "JSE Top 40 (Satrix 40 ETF)",
+      "ticker": "STX40.JO",
+      "unit": "ZAc",
+      "kind": "price",
+      "group": "Equities",
+      "date": "2026-11-20T00:00:00",
+      "value": 9743.0,
+      "chg": {
+        "1D": -0.01863416599516521,
+        "1W": -0.07421132649182816,
+        "1M": -0.06676245210727971,
+        "YTD": -0.10186209439528027,
+        "1Y": -0.07050181263117727
+      }
+    },
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "ticker": "^GSPC",
+      "unit": "points",
+      "kind": "price",
+      "group": "Equities",
+      "date": "2026-11-19T00:00:00",
+      "value": 7175.830078125,
+      "chg": {
+        "1D": -0.020181222570294644,
+        "1W": -0.05486668636752867,
+        "1M": -0.06695071906716021,
+        "YTD": 0.048255069479950397,
+        "1Y": 0.08034583769752057
+      }
+    },
+    {
+      "key": "em",
+      "label": "Emerging markets (MSCI EM ETF)",
+      "ticker": "EEM",
+      "unit": "$",
+      "kind": "price",
+      "group": "Equities",
+      "date": "2026-11-19T00:00:00",
+      "value": 56.75,
+      "chg": {
+        "1D": -0.019523169441296506,
+        "1W": -0.07180241140780419,
+        "1M": -0.10361714154153412,
+        "YTD": 0.03728753335158297,
+        "1Y": 0.05385332605482929
+      }
+    },
+    {
+      "key": "gold",
+      "label": "Gold",
+      "ticker": "GC=F",
+      "unit": "$/oz",
+      "kind": "price",
+      "group": "Commodities",
+      "date": "2026-11-20T00:00:00",
+      "value": 3570.199951171875,
+      "chg": {
+        "1D": -0.031284777866809166,
+        "1W": -0.08133702845501256,
+        "1M": -0.1381741256676503,
+        "YTD": -0.17758174866794296,
+        "1Y": -0.12064040611530169
+      }
+    },
+    {
+      "key": "platinum",
+      "label": "Platinum",
+      "ticker": "PL=F",
+      "unit": "$/oz",
+      "kind": "price",
+      "group": "Commodities",
+      "date": "2026-11-20T00:00:00",
+      "value": 1318.0999755859375,
+      "chg": {
+        "1D": -0.021890769170705426,
+        "1W": -0.11447767847770407,
+        "1M": -0.19950200708772892,
+        "YTD": -0.3521258414421541,
+        "1Y": -0.12488380141002475
+      }
+    },
+    {
+      "key": "brent",
+      "label": "Brent crude",
+      "ticker": "BZ=F",
+      "unit": "$/bbl",
+      "kind": "price",
+      "group": "Commodities",
+      "date": "2026-11-20T00:00:00",
+      "value": 89.01000213623047,
+      "chg": {
+        "1D": -0.032289640272982645,
+        "1W": -0.071264549902324,
+        "1M": -0.18181816906735337,
+        "YTD": 0.4627773930690491,
+        "1Y": 0.40438625175424603
+      }
+    },
+    {
+      "key": "copper",
+      "label": "Copper",
+      "ticker": "HG=F",
+      "unit": "$/lb",
+      "kind": "price",
+      "group": "Commodities",
+      "date": "2026-11-20T00:00:00",
+      "value": 5.559000015258789,
+      "chg": {
+        "1D": -0.011733330620659732,
+        "1W": -0.08561562071262274,
+        "1M": -0.1534303118833713,
+        "YTD": -0.012611029793767492,
+        "1Y": 0.12087916102809149
+      }
+    },
+    {
+      "key": "us10y",
+      "label": "US 10-year Treasury yield",
+      "ticker": "^TNX",
+      "unit": "%",
+      "kind": "yield",
+      "group": "Global rates",
+      "date": "2026-11-20T00:00:00",
+      "value": 4.98199987411499,
+      "chg": {
+        "1D": -0.07000017166137695,
+        "1W": -0.17199993133544922,
+        "1M": -0.13500022888183594,
+        "YTD": 0.8189997673034668,
+        "1Y": 0.875999927520752
+      }
+    }
+  ],
+  "sarb": [
+    {
+      "name": "CPI",
+      "value": 5.2,
+      "date": "2026-10-31",
+      "section": "Inflation rates",
+      "code": "CPI1000F",
+      "unit": "%"
+    },
+    {
+      "name": "PPI",
+      "value": 6.1836,
+      "date": "2026-09-30",
+      "section": "Inflation rates",
+      "code": "PPI1000F",
+      "unit": "%"
+    },
+    {
+      "name": "SARB Policy Rate",
+      "value": 7.25,
+      "date": "2026-11-20",
+      "section": "Interest rates",
+      "code": "MMRD002A",
+      "unit": "%"
+    },
+    {
+      "name": "Prime lending rate",
+      "value": 10.75,
+      "date": "2026-11-20",
+      "section": "Interest rates",
+      "code": "MMRD000A",
+      "unit": "%"
+    },
+    {
+      "name": "8.00% 2030 (R2030) (closing yields)",
+      "value": 7.975,
+      "date": "2026-11-19",
+      "section": "Interest rates",
+      "code": "MMRD708A",
+      "unit": "%"
+    },
+    {
+      "name": "6.25% 2036 (R209) (closing yields)",
+      "value": 8.76,
+      "date": "2026-11-19",
+      "section": "Interest rates",
+      "code": "MMRD709A",
+      "unit": "%"
+    },
+    {
+      "name": "Sabor",
+      "value": 7.242,
+      "date": "2026-11-19",
+      "section": "Interest rates",
+      "code": "MMRD851A",
+      "unit": "%"
+    },
+    {
+      "name": "Zaronia",
+      "value": 7.102,
+      "date": "2026-11-19",
+      "section": "Interest rates",
+      "code": "MMRD855A",
+      "unit": "%"
+    },
+    {
+      "name": "Rand per US Dollar",
+      "value": 17.4429,
+      "date": "2026-11-20",
+      "section": "Exchange rates",
+      "code": "EXCX135D",
+      "unit": "R"
+    },
+    {
+      "name": "Rand per British Pound",
+      "value": 22.872,
+      "date": "2026-11-20",
+      "section": "Exchange rates",
+      "code": "EXCZ001D",
+      "unit": "R"
+    },
+    {
+      "name": "Rand per Euro",
+      "value": 19.1471,
+      "date": "2026-11-20",
+      "section": "Exchange rates",
+      "code": "EXCZ002D",
+      "unit": "R"
+    },
+    {
+      "name": "Rand per Japanese Yen",
+      "value": 0.1096,
+      "date": "2026-11-20",
+      "section": "Exchange rates",
+      "code": "EXCZ120D",
+      "unit": "R"
+    },
+    {
+      "name": "Nominal effective exchange rate",
+      "value": 95.5748,
+      "date": "2026-11-20",
+      "section": "Nominal Effective",
+      "code": "EER5504A",
+      "unit": "index"
+    }
+  ]
+}
