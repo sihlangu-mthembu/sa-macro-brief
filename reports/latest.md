@@ -1,30 +1,30 @@
 # SA Macro & Markets Brief: Friday 20 November 2026
 
-**Brent crude -3.2% on the day to 89.07 $/bbl**
+**Brent crude -3.3% on the day to 88.97 $/bbl**
 
 ### What moved
-- Brent crude -3.2% on the day to 89.07 $/bbl.
-- Gold -3.0% on the day to 3575 $/oz.
+- Brent crude -3.3% on the day to 88.97 $/bbl.
+- Gold -2.9% on the day to 3580 $/oz.
 - Platinum -2.3% on the day to 1317 $/oz.
 - S&P 500 -2.0% on the day to 7176 points.
 
 ### So what for business
-- A weaker rand over the month (+6.2% USD/ZAR) raises import costs and helps exporters.
+- A weaker rand over the month (+6.1% USD/ZAR) raises import costs and helps exporters.
 - The SARB policy rate is 7.25% (prime 10.75%): the base for borrowing costs and deal financing.
 
 ### Markets
 | Indicator | Latest | As of | 1D | 1W | 1M | YTD | 1Y |
 |---|---:|---|---:|---:|---:|---:|---:|
-| USD/ZAR (up = weaker rand) | 17.43 R per $ | 20 Nov | +0.9% | +4.0% | +6.2% | +5.1% | +1.5% |
-| EUR/ZAR | 19.15 R per € | 20 Nov | +1.1% | +3.5% | +4.0% | -1.7% | -3.4% |
-| GBP/ZAR | 22.86 R per £ | 20 Nov | +0.7% | +3.1% | +4.6% | +2.4% | +1.9% |
+| USD/ZAR (up = weaker rand) | 17.42 R per $ | 20 Nov | +0.9% | +3.9% | +6.1% | +5.0% | +1.4% |
+| EUR/ZAR | 19.14 R per € | 20 Nov | +1.1% | +3.4% | +4.0% | -1.8% | -3.4% |
+| GBP/ZAR | 22.84 R per £ | 20 Nov | +0.6% | +3.0% | +4.6% | +2.3% | +1.8% |
 | JSE Top 40 (Satrix 40 ETF) | 9,743 ZAc | 20 Nov | -1.9% | -7.4% | -6.7% | -10.2% | -7.1% |
 | S&P 500 | 7,176 points | 19 Nov | -2.0% | -5.5% | -6.7% | +4.8% | +8.0% |
 | Emerging markets (MSCI EM ETF) | 56.75 $ | 19 Nov | -2.0% | -7.2% | -10.4% | +3.7% | +5.4% |
-| Gold | 3,575 $/oz | 20 Nov | -3.0% | -8.0% | -13.7% | -17.6% | -11.9% |
-| Platinum | 1,317 $/oz | 20 Nov | -2.3% | -11.5% | -20.0% | -35.3% | -12.6% |
-| Brent crude | 89.07 $/bbl | 20 Nov | -3.2% | -7.1% | -18.1% | +46.4% | +40.5% |
-| Copper | 5.564 $/lb | 20 Nov | -1.1% | -8.5% | -15.3% | -1.2% | +12.2% |
+| Gold | 3,580 $/oz | 20 Nov | -2.9% | -7.9% | -13.6% | -17.5% | -11.8% |
+| Platinum | 1,317 $/oz | 20 Nov | -2.3% | -11.5% | -20.0% | -35.3% | -12.5% |
+| Brent crude | 88.97 $/bbl | 20 Nov | -3.3% | -7.2% | -18.2% | +46.2% | +40.4% |
+| Copper | 5.557 $/lb | 20 Nov | -1.2% | -8.6% | -15.4% | -1.3% | +12.0% |
 | US 10-year Treasury yield | 4.988 % | 20 Nov | -0.06 pp | -0.17 pp | -0.13 pp | +0.82 pp | +0.88 pp |
 
 ### SARB indicators
@@ -60,6 +60,6 @@ _Rule-based fallback (AI unavailable). Not investment advice._
 
 <details><summary>Data issues this run</summary>
 
-- AI: JSONDecodeError: Expecting value: line 1 column 1 (char 0); used rule-based brief
+- AI: non-JSON reply: status 200, type text/plain, url https://models.github.ai/inference/chat/completions, redirects [], body 'OK\r\n'; used rule-based brief
 
 </details>
