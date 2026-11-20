@@ -96,7 +96,13 @@ def write_brief(snap, sarb, news, errors: list[str]) -> dict:
             if r.status_code != 200:
                 last = f"HTTP {r.status_code}: {r.text[:160]}"
                 continue
-            content = (r.json()["choices"][0]["message"].get("content") or "").strip()
+            try:
+                payload = r.json()
+            except ValueError:
+                last = (f"non-JSON reply: status {r.status_code}, type {r.headers.get('content-type')}, "
+                        f"url {r.url}, redirects {[h.status_code for h in r.history]}, body {r.text[:150]!r}")
+                continue
+            content = (payload["choices"][0]["message"].get("content") or "").strip()
             content = re.sub(r"^```(?:json)?|```$", "", content).strip()
             if not content:
                 last = f"empty reply: {r.text[:200]}"
