@@ -23,9 +23,8 @@ FRANKFURTER_URL = "https://api.frankfurter.app"
 
 NEWS_FEEDS = [
     ("Google News", "https://news.google.com/rss/search?q=(%22South+Africa%22+economy)+OR+rand+OR+JSE+OR+SARB+OR+Eskom+OR+Treasury+when:2d&hl=en-ZA&gl=ZA&ceid=ZA:en"),
+    ("Google News", "https://news.google.com/rss/search?q=%22South+Africa%22+(acquisition+OR+merger+OR+takeover+OR+results+OR+listing)+when:2d&hl=en-ZA&gl=ZA&ceid=ZA:en"),
     ("Moneyweb", "https://www.moneyweb.co.za/feed/"),
-    ("BusinessTech", "https://businesstech.co.za/news/feed/"),
-    ("Daily Maverick", "https://www.dailymaverick.co.za/section/business-maverick/feed/"),
 ]
 
 # Tags applied to headlines by keyword (whole words, case-insensitive).

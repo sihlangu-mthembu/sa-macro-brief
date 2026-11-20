@@ -80,6 +80,8 @@ def write_brief(snap, sarb, news, errors: list[str]) -> dict:
     body = {
         "model": config.GITHUB_MODEL,
         "temperature": 0.2,
+        "max_tokens": 900,
+        "response_format": {"type": "json_object"},
         "messages": [
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": _facts(snap, sarb, news) + "\n\n" + SCHEMA},
@@ -94,7 +96,16 @@ def write_brief(snap, sarb, news, errors: list[str]) -> dict:
             if r.status_code != 200:
                 last = f"HTTP {r.status_code}: {r.text[:160]}"
                 continue
-            data = _parse(r.json()["choices"][0]["message"]["content"])
+            content = (r.json()["choices"][0]["message"].get("content") or "").strip()
+            content = re.sub(r"^```(?:json)?|```$", "", content).strip()
+            if not content:
+                last = f"empty reply: {r.text[:200]}"
+                continue
+            try:
+                data = _parse(content)
+            except Exception as e:
+                last = f"unparseable reply ({type(e).__name__}): {content[:160]!r}"
+                continue
             data["engine"] = f"AI analyst ({config.GITHUB_MODEL} via GitHub Models)"
             return data
         except Exception as e:
