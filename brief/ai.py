@@ -87,12 +87,16 @@ def write_brief(snap, sarb, news, errors: list[str]) -> dict:
             {"role": "user", "content": _facts(snap, sarb, news) + "\n\n" + SCHEMA},
         ],
     }
-    headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
-               "X-GitHub-Api-Version": "2022-11-28", "Content-Type": "application/json"}
+    base = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
+            "Content-Type": "application/json"}
+    # newest documented API version first; then no version header; then without response_format
+    attempts = [({**base, "X-GitHub-Api-Version": "2026-03-10"}, body),
+                (base, body),
+                (base, {k: v for k, v in body.items() if k != "response_format"})]
     last = None
-    for _ in range(3):
+    for headers, payload_body in attempts:
         try:
-            r = requests.post(ENDPOINT, json=body, headers=headers, timeout=60)
+            r = requests.post(ENDPOINT, json=payload_body, headers=headers, timeout=60)
             if r.status_code != 200:
                 last = f"HTTP {r.status_code}: {r.text[:160]}"
                 continue
