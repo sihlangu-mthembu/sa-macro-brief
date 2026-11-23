@@ -1,29 +1,29 @@
 {
-  "run": "2026-11-20T16:38:13+02:00",
+  "run": "2026-11-23T16:42:52+02:00",
   "brief": {
-    "headline": "SARB held rates at 7.25% as the rand weakens to near one\u2011year lows",
+    "headline": "Rand weakness and commodity shifts pressure SA importers, exporters and miners",
     "what_moved": [
-      "USD/ZAR up 0.9% to 17.43 R/$ (1D) and 4.0% week\u2011on\u2011week, signalling a weaker rand",
-      "JSE Top 40 down 1.5% to 9,784 points (1D) and 7.0% down week\u2011on\u2011week",
-      "Brent crude fell 3.5% to $88.8/bbl (1D) after a 18.4% monthly drop but up 45.9% YTD",
-      "Prime lending rate at 10.75%, equal to policy rate plus 3.5 points"
+      "USD/ZAR at 17.35, up 2.5% week, 5.3% month, 4.6% YTD, indicating a weaker rand",
+      "JSE Top 40 at 9,980, down 8.0% YTD and 2.3% today",
+      "Brent crude at $88.24, up 45.0% YTD after a 24.4% monthly fall",
+      "Gold at $3,684, down 15.1% YTD and 8.1% month"
     ],
     "so_what": [
-      "Importers face higher costs as a weaker rand raises the price of imported inputs and fuel",
-      "Exporters gain marginally more rand per dollar, but lower commodity prices hurt miners and trade balance",
-      "Borrowers see no change in policy rate, but a weaker rand could increase foreign\u2011currency debt servicing",
-      "Deal teams should factor currency risk and lower equity valuations into M&A pricing"
+      "Importers will see higher costs as a weaker rand raises import prices and oil remains expensive",
+      "Exporters gain rand\u2011per\u2011dollar advantage but face higher fuel costs that may erode margins",
+      "Miners face lower metal prices YTD, offset partly by rand weakness but overall earnings pressure",
+      "Deal teams may encounter lower equity valuations and tighter financing as rates stay at 7.25%"
     ],
     "watch": [
-      "Oil price rebound could lift inflation pressures despite recent Brent decline"
+      "Political coalition fallout could further weaken the rand",
+      "Oil price volatility remains a key inflation driver for businesses"
     ],
     "headline_refs": [
-      22,
-      4,
-      5,
-      20
+      0,
+      23,
+      18
     ],
-    "engine": "AI analyst (openai/gpt-oss-120b via Groq), fact-checked by code: 1 unsupported line(s) removed"
+    "engine": "AI analyst (openai/gpt-oss-120b via Groq), fact-checked by code: all figures matched the source data"
   },
   "errors": [],
   "markets": [
@@ -34,14 +34,14 @@
       "unit": "R per $",
       "kind": "price",
       "group": "Rand",
-      "date": "2026-11-20T00:00:00",
-      "value": 17.43195915222168,
+      "date": "2026-11-23T00:00:00",
+      "value": 17.348560333251953,
       "chg": {
-        "1D": 0.00939208299058758,
-        "1W": 0.04019541094092771,
-        "1M": 0.061718213713121806,
-        "YTD": 0.051037983394519815,
-        "1Y": 0.014736684794405486
+        "1D": -0.008348797602848346,
+        "1W": 0.024976676242582485,
+        "1M": 0.0526974756371843,
+        "YTD": 0.04600955682800523,
+        "1Y": 0.007913473826960837
       }
     },
     {
@@ -51,14 +51,14 @@
       "unit": "R per \u20ac",
       "kind": "price",
       "group": "Rand",
-      "date": "2026-11-20T00:00:00",
-      "value": 19.147340774536133,
+      "date": "2026-11-23T00:00:00",
+      "value": 18.974239349365234,
       "chg": {
-        "1D": 0.010952609889141485,
-        "1W": 0.03441549314931858,
-        "1M": 0.039968577344775325,
-        "YTD": -0.01743107511727482,
-        "1Y": -0.03409585337631316
+        "1D": -0.011038274182324281,
+        "1W": 0.017467297591280184,
+        "1M": 0.0261393068295952,
+        "YTD": -0.026313983884012293,
+        "1Y": -0.04424264713794468
       }
     },
     {
@@ -69,13 +69,13 @@
       "kind": "price",
       "group": "Rand",
       "date": "2026-11-20T00:00:00",
-      "value": 22.85700035095215,
+      "value": 22.88949966430664,
       "chg": {
-        "1D": 0.006885231989870455,
-        "1W": 0.03096459509071403,
-        "1M": 0.04610613101167371,
-        "YTD": 0.02360055660755367,
-        "1Y": 0.01874315873303556
+        "1D": 0.008316875607318419,
+        "1W": 0.0324304760426668,
+        "1M": 0.04759354101437707,
+        "YTD": 0.025055966973229093,
+        "1Y": 0.02019166258896843
       }
     },
     {
@@ -85,14 +85,14 @@
       "unit": "ZAc",
       "kind": "price",
       "group": "Equities",
-      "date": "2026-11-20T00:00:00",
-      "value": 9784.0,
+      "date": "2026-11-23T00:00:00",
+      "value": 9980.0,
       "chg": {
-        "1D": -0.014504431909750148,
-        "1W": -0.07031546940326872,
-        "1M": -0.06283524904214555,
-        "YTD": -0.09808259587020651,
-        "1Y": -0.06659034535394004
+        "1D": 0.02327488977750436,
+        "1W": -0.047164407103303385,
+        "1M": -0.007755020878902341,
+        "YTD": -0.08001474926253682,
+        "1Y": -0.027195633102641614
       }
     },
     {
@@ -102,14 +102,14 @@
       "unit": "points",
       "kind": "price",
       "group": "Equities",
-      "date": "2026-11-20T00:00:00",
-      "value": 7144.33984375,
+      "date": "2026-11-23T00:00:00",
+      "value": 7178.5400390625,
       "chg": {
-        "1D": -0.004388375147147849,
-        "1W": -0.055190200370650144,
-        "1M": -0.07367582964168617,
-        "YTD": 0.043654932985172756,
-        "1Y": 0.09261390536300218
+        "1D": 0.038803873158900215,
+        "1W": -0.03209693534395808,
+        "1M": -0.05838914099949555,
+        "YTD": 0.04865094427908856,
+        "1Y": 0.0871650243689901
       }
     },
     {
@@ -119,14 +119,14 @@
       "unit": "$",
       "kind": "price",
       "group": "Equities",
-      "date": "2026-11-20T00:00:00",
-      "value": 55.61000061035156,
+      "date": "2026-11-23T00:00:00",
+      "value": 57.93000030517578,
       "chg": {
-        "1D": -0.02008809497177866,
-        "1W": -0.08716345564994754,
-        "1M": -0.12176246243890732,
-        "YTD": 0.016450402868574354,
-        "1Y": 0.04707211393841959
+        "1D": 0.07596582728448031,
+        "1W": -0.01630156383804282,
+        "1M": -0.0657958091726093,
+        "YTD": 0.0588558083455899,
+        "1Y": 0.09096048907437626
       }
     },
     {
@@ -136,14 +136,14 @@
       "unit": "$/oz",
       "kind": "price",
       "group": "Commodities",
-      "date": "2026-11-20T00:00:00",
-      "value": 3572.199951171875,
+      "date": "2026-11-23T00:00:00",
+      "value": 3684.300048828125,
       "chg": {
-        "1D": -0.03074211065747523,
-        "1W": -0.08082240015177511,
-        "1M": -0.13769133709215353,
-        "YTD": -0.17712103595572526,
-        "1Y": -0.12014779527786335
+        "1D": 0.048045784598152785,
+        "1W": -0.04378405169267452,
+        "1M": -0.08074050285696743,
+        "YTD": -0.1512980659401818,
+        "1Y": -0.09687460501823142
       }
     },
     {
@@ -153,14 +153,14 @@
       "unit": "$/oz",
       "kind": "price",
       "group": "Commodities",
-      "date": "2026-11-20T00:00:00",
-      "value": 1312.199951171875,
+      "date": "2026-11-23T00:00:00",
+      "value": 1334.699951171875,
       "chg": {
-        "1D": -0.026268941121544986,
-        "1W": -0.11844141674714481,
-        "1M": -0.20308516298566526,
-        "YTD": -0.3550258288661219,
-        "1Y": -0.1288009602238145
+        "1D": 0.03513256235464857,
+        "1W": -0.07824589007467198,
+        "1M": -0.14123021933857083,
+        "YTD": -0.34396660055449746,
+        "1Y": -0.11831159458271678
       }
     },
     {
@@ -170,14 +170,14 @@
       "unit": "$/bbl",
       "kind": "price",
       "group": "Commodities",
-      "date": "2026-11-20T00:00:00",
-      "value": 88.80000305175781,
+      "date": "2026-11-23T00:00:00",
+      "value": 88.23999786376953,
       "chg": {
-        "1D": -0.03457273525894111,
-        "1W": -0.07345569235325122,
-        "1M": -0.18374848511391462,
-        "YTD": 0.4593262987430242,
-        "1Y": 0.4010729181958108
+        "1D": -0.04677543313524268,
+        "1W": -0.04543492499688029,
+        "1M": -0.24400276781253127,
+        "YTD": 0.45012325515993457,
+        "1Y": 0.4104858683945327
       }
     },
     {
@@ -187,14 +187,14 @@
       "unit": "$/lb",
       "kind": "price",
       "group": "Commodities",
-      "date": "2026-11-20T00:00:00",
-      "value": 5.546000003814697,
+      "date": "2026-11-23T00:00:00",
+      "value": 5.761499881744385,
       "chg": {
-        "1D": -0.014044443766276005,
-        "1W": -0.08775395626981042,
-        "1M": -0.15541005924864004,
-        "YTD": -0.014920090394094476,
-        "1Y": 0.11825792665485668
+        "1D": 0.05194442814455247,
+        "1W": -0.03934973960596355,
+        "1M": -0.11033044609751919,
+        "YTD": 0.023356974179480128,
+        "1Y": 0.1503443681043788
       }
     },
     {
@@ -204,14 +204,14 @@
       "unit": "%",
       "kind": "yield",
       "group": "Global rates",
-      "date": "2026-11-20T00:00:00",
-      "value": 4.984000205993652,
+      "date": "2026-11-23T00:00:00",
+      "value": 4.9720001220703125,
       "chg": {
-        "1D": -0.06799983978271484,
-        "1W": -0.1699995994567871,
-        "1M": -0.13299989700317383,
-        "YTD": 0.8210000991821289,
-        "1Y": 0.8780002593994141
+        "1D": 0.059999942779541016,
+        "1W": -0.14899969100952148,
+        "1M": -0.015999794006347656,
+        "YTD": 0.8090000152587891,
+        "1Y": 0.9089999198913574
       }
     }
   ],
@@ -235,7 +235,7 @@
     {
       "name": "SARB Policy Rate",
       "value": 7.25,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "section": "Interest rates",
       "code": "MMRD002A",
       "unit": "%"
@@ -243,79 +243,79 @@
     {
       "name": "Prime lending rate",
       "value": 10.75,
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "section": "Interest rates",
       "code": "MMRD000A",
       "unit": "%"
     },
     {
       "name": "8.00% 2030 (R2030) (closing yields)",
-      "value": 7.975,
-      "date": "2026-11-19",
+      "value": 8.06,
+      "date": "2026-11-20",
       "section": "Interest rates",
       "code": "MMRD708A",
       "unit": "%"
     },
     {
       "name": "6.25% 2036 (R209) (closing yields)",
-      "value": 8.76,
-      "date": "2026-11-19",
+      "value": 8.84,
+      "date": "2026-11-20",
       "section": "Interest rates",
       "code": "MMRD709A",
       "unit": "%"
     },
     {
       "name": "Sabor",
-      "value": 7.242,
-      "date": "2026-11-19",
+      "value": 7.253,
+      "date": "2026-11-20",
       "section": "Interest rates",
       "code": "MMRD851A",
       "unit": "%"
     },
     {
       "name": "Zaronia",
-      "value": 7.102,
-      "date": "2026-11-19",
+      "value": 7.11,
+      "date": "2026-11-20",
       "section": "Interest rates",
       "code": "MMRD855A",
       "unit": "%"
     },
     {
       "name": "Rand per US Dollar",
-      "value": 17.4429,
-      "date": "2026-11-20",
+      "value": 17.4478,
+      "date": "2026-11-23",
       "section": "Exchange rates",
       "code": "EXCX135D",
       "unit": "R"
     },
     {
       "name": "Rand per British Pound",
-      "value": 22.872,
-      "date": "2026-11-20",
+      "value": 22.9046,
+      "date": "2026-11-23",
       "section": "Exchange rates",
       "code": "EXCZ001D",
       "unit": "R"
     },
     {
       "name": "Rand per Euro",
-      "value": 19.1471,
-      "date": "2026-11-20",
+      "value": 19.1812,
+      "date": "2026-11-23",
       "section": "Exchange rates",
       "code": "EXCZ002D",
       "unit": "R"
     },
     {
       "name": "Rand per Japanese Yen",
-      "value": 0.1096,
-      "date": "2026-11-20",
+      "value": 0.1097,
+      "date": "2026-11-23",
       "section": "Exchange rates",
       "code": "EXCZ120D",
       "unit": "R"
     },
     {
       "name": "Nominal effective exchange rate",
-      "value": 95.5748,
-      "date": "2026-11-20",
+      "value": 95.5064,
+      "date": "2026-11-23",
       "section": "Nominal Effective",
       "code": "EER5504A",
       "unit": "index"
