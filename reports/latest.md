@@ -1,66 +1,64 @@
-# SA Macro & Markets Brief: Thursday 26 November 2026
+# SA Macro & Markets Brief: Friday 27 November 2026
 
-**Rand steady as oil falls, metals slump and JSE Top 40 slides YTD**
+**Rand weakens as rate‑hike speculation and political uncertainty weigh on markets**
 
 ### What moved
-- USD/ZAR at 17.53 R/$, unchanged today but up 1.5% week, 5.5% month, 5.7% YTD
-- Brent crude at $91.24/bbl, down 3.6% today, 21.2% month, up 49.9% YTD
-- Gold at $3,598/oz, up 1.8% today but down 10.9% month and 17.1% YTD
-- JSE Top 40 (Satrix 40 ETF) at 9,937 ZAc, up 2.3% today, down 2.4% month, YTD -8.4%
+- USD/ZAR 17.37, down 1.0% on the day, up 4.5% month‑to‑date, +4.8% YTD
+- Brent crude $91.6, down 3.2% on the day, -19.6% month, +50.5% YTD
+- Gold $3,670, up 3.8% on the day, +4.4% week, -9.9% month
 
 ### So what for business
-- Importers face higher costs if the rand weakens further; current steadiness offers short‑term pricing certainty
-- Exporters benefit from a weaker rand on dollar sales, but lower metal prices hurt mining revenue
-- Borrowers see prime rate at 10.75%; stable rand limits inflation pressure on loan servicing
-- Deal teams should note IDC’s R4.5bn Tongaat stake talks as potential M&A activity in agribusiness
+- Importers face higher costs as a weaker rand raises fuel and transport expenses
+- Exporters gain from a weaker rand and higher metal prices boosting earnings in foreign currency
+- Borrowers see pressure from the 7.25% policy rate and 10.75% prime rate amid rising bond yields
 
 ### Watch
-- Producer inflation data due soon could move the rand
-- Further movements in Brent and metal prices will impact mining margins and trade balance
-- IDC investment activity signals possible larger private‑equity deals in South Africa
+- SARB policy decisions after rate‑hike speculation
+- Progress of national elections and related uncertainty
+- Brent crude price movements affecting transport costs
 
 ### Markets
 | Indicator | Latest | As of | 1D | 1W | 1M | YTD | 1Y |
 |---|---:|---|---:|---:|---:|---:|---:|
-| USD/ZAR (up = weaker rand) | 17.53 R per $ | 26 Nov | -0.0% | +1.5% | +5.5% | +5.7% | +1.9% |
-| EUR/ZAR | 19.26 R per € | 26 Nov | +0.2% | +1.7% | +3.3% | -1.2% | -3.2% |
-| GBP/ZAR | 23 R per £ | 26 Nov | +0.0% | +1.3% | +3.4% | +3.0% | +1.6% |
-| JSE Top 40 (Satrix 40 ETF) | 9,937 ZAc | 26 Nov | +2.3% | +0.1% | -2.4% | -8.4% | -5.5% |
+| USD/ZAR (up = weaker rand) | 17.37 R per $ | 27 Nov | -1.0% | -0.7% | +4.5% | +4.8% | +1.4% |
+| EUR/ZAR | 19.03 R per € | 27 Nov | -1.1% | -0.8% | +2.4% | -2.4% | -4.3% |
+| GBP/ZAR | 22.79 R per £ | 27 Nov | -0.9% | -0.4% | +2.7% | +2.1% | +0.4% |
+| JSE Top 40 (Satrix 40 ETF) | 1.019e+04 ZAc | 27 Nov | +2.6% | +4.5% | -0.3% | -6.1% | -1.6% |
 | S&P 500 | 7,183 points | 25 Nov | -0.3% | -1.9% | -5.8% | +4.9% | +6.2% |
 | Emerging markets (MSCI EM ETF) | 56.4 $ | 25 Nov | -0.5% | -2.6% | -9.0% | +3.1% | +4.7% |
-| Gold | 3,598 $/oz | 26 Nov | +1.8% | -2.4% | -10.9% | -17.1% | -13.6% |
-| Platinum | 1,286 $/oz | 26 Nov | +3.6% | -4.5% | -16.3% | -36.8% | -18.5% |
-| Brent crude | 91.24 $/bbl | 26 Nov | -3.6% | -0.8% | -21.2% | +49.9% | +44.5% |
-| Copper | 5.468 $/lb | 26 Nov | +2.5% | -2.8% | -16.0% | -2.9% | +7.1% |
-| US 10-year Treasury yield | 4.848 % | 25 Nov | -0.06 pp | -0.22 pp | -0.14 pp | +0.68 pp | +0.85 pp |
+| Gold | 3,670 $/oz | 27 Nov | +3.8% | +4.4% | -9.9% | -15.5% | -11.9% |
+| Platinum | 1,319 $/oz | 27 Nov | +6.2% | +2.3% | -14.1% | -35.2% | -16.5% |
+| Brent crude | 91.6 $/bbl | 27 Nov | -3.2% | -1.0% | -19.6% | +50.5% | +45.1% |
+| Copper | 5.619 $/lb | 27 Nov | +5.4% | +2.6% | -15.2% | -0.2% | +10.1% |
+| US 10-year Treasury yield | 4.906 % | 27 Nov | +0.06 pp | -0.01 pp | -0.09 pp | +0.74 pp | +0.91 pp |
 
 ### SARB indicators
 | Indicator | Value | As of |
 |---|---:|---|
 | CPI | 5.2 | 2026-10-31 |
 | PPI | 8.1238 | 2026-10-31 |
-| SARB Policy Rate | 7.25 | 2026-11-26 |
-| Prime lending rate | 10.75 | 2026-11-26 |
-| 8.00% 2030 (R2030) (closing yields) | 8.035 | 2026-11-25 |
-| 6.25% 2036 (R209) (closing yields) | 8.85 | 2026-11-25 |
-| Sabor | 7.243 | 2026-11-25 |
-| Zaronia | 7.111 | 2026-11-25 |
-| Rand per US Dollar | 17.5343 | 2026-11-26 |
-| Rand per British Pound | 22.9839 | 2026-11-26 |
-| Rand per Euro | 19.2404 | 2026-11-26 |
-| Rand per Japanese Yen | 0.1102 | 2026-11-26 |
-| Nominal effective exchange rate | 95.0788 | 2026-11-26 |
+| SARB Policy Rate | 7.25 | 2026-11-27 |
+| Prime lending rate | 10.75 | 2026-11-27 |
+| 8.00% 2030 (R2030) (closing yields) | 8.025 | 2026-11-26 |
+| 6.25% 2036 (R209) (closing yields) | 8.8 | 2026-11-26 |
+| Sabor | 7.253 | 2026-11-26 |
+| Zaronia | 7.116 | 2026-11-26 |
+| Rand per US Dollar | 17.3544 | 2026-11-27 |
+| Rand per British Pound | 22.7733 | 2026-11-27 |
+| Rand per Euro | 19.03 | 2026-11-27 |
+| Rand per Japanese Yen | 0.1089 | 2026-11-27 |
+| Nominal effective exchange rate | 96.022 | 2026-11-27 |
 
 ### Headlines
-- [South African rand steady ahead of producer inflation data](https://news.google.com/rss/articles/CBMilwFBVV95cUxObkIwZy1QTS1tczhZVkQ0ZDktNHN2RVZZWm9DRTh5TG1FUEJ1WE5PSFFPVzlHV3VJdWFUSVhWMnBNUWRRRjNfRmdfeXU4WFN5TEpBNEQzcHEwUGljR0ZrcTgwQ3pTOVVaWGtvQ2hrbEFYSThxYmw2MS1hdDZERGcxcGNMMktjcjl5Nk9wNmR4U1pGNmdRN3pZ?oc=5) (CNBC Africa)
-- [IDC in talks for R4.5bn stake in Tongaat](https://www.moneyweb.co.za/news/companies-and-deals/idc-in-talks-for-r4-5bn-stake-in-sugar-firm/) (Moneyweb)
-- [Kenya’s Teachers Service Commission says did not publish CEO interview results circulating online](https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ3hyOUdnNXotY2FXOHhGWWdyZVRIcXVsUGl5WE5BWXpWZGJhMnpZbUk0T1RzdlpFeENFYmRHRnVXX2pmMVJMUmw1UzR0SGl1Wm5ja0NNWFltUVI1VjRNT0NaWDJyNTM0bU1pLUM2bHJNeEtlZFltWkpkMVZKZFRaRVZyUTJPR3VaM25NLWNtWnJYQVRRbWdCU0gtUHNwRGpSbHprWXFBSHhBZnpVRnBVR05jRzd6NURkMWFFNEVqUQ?oc=5) (Africa Check)
-- [LGE2026: 65% of Western Cape election results captured, IEC says](https://news.google.com/rss/articles/CBMioAFBVV95cUxPdmdsbVZyWngtSW0ydzdBV2VhczVWejJuZ3hYWjJoWmFFQTh6SHJVbkxCdDhDekt6QXBkTURBMTdwQkF0SUdoVXphVTM0anBtLWE4aW5nVzk3RWtxazRvd2E4WGozbk5CMUNnd2Q0VG9YTXBNZ2VRTG5JYXpqalRMZ1ZmM3gwNDBYVGttREpldmRFR2tJR1IwR18xYUJBam5F?oc=5) (IOL)
-- [Alexforbes lifts operating profit 17% to R521m as income outpaces costs](https://www.moneyweb.co.za/news/companies-and-deals/alexforbes-lifts-operating-profit-17-to-r521m-as-income-outpaces-costs/) (Moneyweb)
-- [US Treasury Department Urged to Investigate South African Charity Linked to Hamas](https://news.google.com/rss/articles/CBMitAFBVV95cUxNOWtubzkySmd4RVRTSi1MZkdENzVjdDhORTRqOTQ2TjBiYklhZE92eXR2a1NQd0FiY294V1NuZnpEblBtQTB5TDFJLXEyYWNBd25mbXFVa25VOWwzZW5qcklrTF9lVURrYzdwS2xGdVBpd0czNUVSTzlLblQ4bHVQZXZ3QUdLUUxIaDNXWWhUbEtRdFJCOWtkNUt4VzVGaFhJbGk5b255RUEwTlRoSXhRTE9ucm0?oc=5) (Algemeiner.com)
-- [AME maintains dividend despite profit dip](https://www.moneyweb.co.za/news/companies-and-deals/ame-maintains-dividend-despite-profit-dip/) (Moneyweb)
-- [Chris Yelland | Eskom Green tender locks out local renewable energy developers](https://news.google.com/rss/articles/CBMiygFBVV95cUxOZW9vZmhkaExDRzhPQVlvdENHRGJQRnVBVlR5TzhJS29SbGhYbGpudzhpR0FMajM1UEU4aXJncElUVkc1Z0wydlU3eE5NUGo0TmNUbjFMbk1Jb0luaURXZ2l0T0o5bFBNQVpSWEpVU0pPUEdkSDFQbm9JbUZsdDlTQjR6dXp4RXlHSi00cE1TWmFvMGtBVzB2VUdGd2YzU2dMU3VjSlFwaFNEakU4SEdwOUdUbWRrcVBLWld5T3dOM1lFV011UURqVlJn?oc=5) (News24)
-- [South Africa’s IDC in Talks for $257 Million Stake in Sugar Firm](https://news.google.com/rss/articles/CBMitAFBVV95cUxQQzRVVTJWc1NuN0x0RTJfSHNFZlc3WjNwNVdJNzA5V1lWd1hqOGt0T0hUQzlPRFA0NkVXT3lnU2hsRTRNLWs2VWRHcXBLZlpMM1ZxbEdYaUxHY1RteE9CUFhqU1Q0NU55VDFSNTU0bW93SFIyeVZ5NUNkemhwNU9GdWFkd1FaczNQdHpTMTIzdTBwcFR6NmFUb2RmLVh4YjE2R204QWVKQzZxdnRXZGI0XzQzelY?oc=5) (Bloomberg.com)
-- [East Africa’s second-largest economy emerges as top destination for Chinese solar exports as imports jump from $5 million to $576 million and panel shipments to the lucrative US market surge](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOEVHM1B5T3pvUEZnRTMtR1RiZnBTa3VmeE1aX1lDVjFHOXBUV2xzTGZUSF9vTUowWFdUdUtVaUw2MUNWNktMQkhGQzV2WENwRFRMRmV5UEtpbGQ0RUpza0pzX1ZNMVlFQmF6TjJuUWl2SjBQd3BPMEgxNUJoSkxyWVJOZVpmWkJDeGNZNkdNY2Uyd3ZnVU10aWw0eFRscy02UlhkeGFwc3BTZEI3Q1ZMSmt2bGpBb201UGM5aWYtbW85dmpQRUVmRjk4dmh5c05fQ0Vz?oc=5) (Business Insider Africa)
+- [Citing world giants, Pusic explains Al-Ahli's shock results](https://news.google.com/rss/articles/CBMirwFBVV95cUxPU2V2dFlLZXVnQXRBdWU2anZoU29pS3pNMzE5UXhJUWk5cjAzVXJOYnhCYWQ5QXhMY0RLc2JYZDhHcU9NaERVdTVvVFRXS3ljWlNrRHhGeVNZaTVydXFtclphV3RCMm12My1DRU5vYk4wUFBDbVo2eGpuN2FsdFdoZTJ3Unp1V1hEU2FIYVRlYlU5SnF6WlA0VGlWOV9nZURLOHdCNmpSVy1UVTc2OG1J?oc=5) (Goal.com)
+- [Coca-Cola HBC lists on JSE](https://news.google.com/rss/articles/CBMifkFVX3lxTE4xU0FjT0RRYXVFMnRfc0FPaC1lRUpXcExUN3VJbFJ5TUNPLWZlNmNQSERSTWFIZUFuLXJGMG5tZU1YWm5wdE1IRlV0MkdscEZtNE9HT3NsTXJPWXAwdmJGa0FHNEVNaUxvcmdnUzU2dmVnYXVfdnc1YVY4VGVXdw?oc=5) (Africa Business Communities)
+- [After Nigeria’s landmark IPO, Dangote refinery targets listing on Africa’s biggest stock exchange to tap $331 billion pension fund market](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZUNrcGpsa3VaSC1TTVJUSWpxdTUxR0RDOHFkMks2bG9qcVRORURMNUtIODRDaVRnSVZadU9wRmdmMDFwU2hyUlRHODNLUktFUXlnbFJ0N3JhR1V3a3hvM2hGSjhXVWFqQjVjUVhQbENESTQzT2hTbGNTT0FwTDlpUXJ5WEt2azRVQzdvX0J6LWpXb2VYblFrOEEwd1Z3YnpZZW5rNUd2VWRxSFFDYnRfcGtoTXpwT0ZDLWpEeWZuM3ludjZtdmYzRXVHMWpGbExFeG9HZXBjeGZ6dw?oc=5) (Business Insider Africa)
+- [15.9 million voted, but IEC still has 800 complaints to resolve before final results](https://news.google.com/rss/articles/CBMivAFBVV95cUxPbjZKcTJFT0xVM00tQ3hjMkhpbUJXNUxRTl9LQm10Y0haSVFOdC1pYVJxR2IzdWc3TGs5R01vNnFNVm56RmpDVXg3ZG5HMU1Rd012TEhSZDJSYjA4aTJYLWFkSWZyOE90anYtVXFpQnFuMnktd1pNUkFzZFlYQzFQNHc5X1ZVU011Y3pwSEEzS1ZjaUFxU1FDQ0xRS3YzLS1MSUtfMEtHQkNhM0Zia3JtaFlTLURZZ0hwV2JONA?oc=5) (IOL)
+- [Sports video, fixtures, results and news](https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYVJra2dlOUZldWNKbThVSWFlMnJkSEVsWWJtTms3MEo0anNCcXVUX2IyUjdoNjBpOWZPamUyNENyX3o4dVZzRUhXSmJRcEZQUGlZVnNwWTRnVG9NNzZqclpoazk1TlJXSFNteXNGa25HZEdSMEg1NHFOX2JRYVVfMDRVUy1tdmRiRG5aT2JuZEFYaTJ0Ym1HU0lmNTdfWlFxbWdiSWJacGNyNEtGeUhzVGRyYXlHcEYwT2U0SWRnVWdWdDhsVks4SXhsYU5MOXlqYklDVg?oc=5) (supersport.com)
+- [IEC says more than 60% of election results captured as collation continues](https://news.google.com/rss/articles/CBMisAFBVV95cUxOajZ0M1phYjV1WnNqTEVpaERwdlkzYTJhbVBTRllVV1hSOF9hUjVCbWg3M0o3Y3JfMGRka3dzZ2hxeWJrdWtVNHFQZ2lJU0xxaVJ6QzRJT3dmQTlYUzd4ODFrbXhxYXk5VFgtTm9qRktfcUFWLWIzZ0sxNS1VcGIySElZaVlwLVViZFhkSUlGR3NJcmdQV0pfSVFHM1FqSWc2TXA5UlhkMFdwZUhYY0t0NQ?oc=5) (IOL)
+- [Eskom to Decommission Hendrina and Arnot by 2030](https://news.google.com/rss/articles/CBMijwFBVV95cUxQUTdheC1waVREMnMyc3hsdS1WMzRxZUVBVDk5enZIZ1R4dUgyNlhqMmlodUp0UGxCX1ZwQ3FqbXd2MWQ4by04SWF6VlpBdlJyQVBOSXdWLVpndTlCV3ZhNE5zVlUtUzdLRFdNUmlXc3NkYUZWVmlxQjFYMU1aWnJWVlpPa0F6UGtQQzlTcUl5SQ?oc=5) (Wisevoter)
+- [US Dollar vs South African Rand slides slightly after South Africa rate hike speculation and political uncertainty](https://news.google.com/rss/articles/CBMikAFBVV95cUxPSGtmenlBRGtRMmNIdFhXSkFJd1pmZERqdHdkTXl0UkkzMlpYcy1MUk9tbFRuSl9najY1X1QxZDZKOHp5MFNxU29XbGtJRndMczcwMnNtTHJ6NThhU3JCWjM4WGx0NzBmUlNBUThYRHl2VExnQUhjczd0c1U0cnp5aWc1SVRUa1E2cUhjQWUyTEc?oc=5) (Traders Union)
+- [Coca-Cola HBC completes $2.6bn deal to take control of African bottling giant](https://news.google.com/rss/articles/CBMiywFBVV95cUxQZkhRckpEQk1CWkpudHhkcUR1VHl3TTJXQ2Z5VWRvRFR6SENUWTI2dERvNHVCVk01ekU0VDRyZWsyTEJ3R1o5R2Z2S1VGNGFKMVZ6TFZxZk0yei0zWTZFWXlPcEVwYXZGX1ZsbG1Peldwc21KLTNEaEVxTFZVb2FkamNqdVZBV0xsYS1uaGphRnN6STRLc2NudlJHbW50MkhpdjRHNzNlVC1FNXR1T1NWcXpTZXhGRHVRbF9rUHhmMjgyenduVE5hZEFxOA?oc=5) (IOL)
+- [Warning bells ring for South Africa's car industry as manufacturers demand policy action](https://news.google.com/rss/articles/CBMizwFBVV95cUxOb0RnVHd1M0FqeXNFUTVfTkRyTmVEaUFZcER1Zndjanh4UC1TcFJBQTJpdmhNelktQk9CY2Rsa1RnQkpjcWdZOXkzRWdBM3AtSUQtZVo0NTRsWWNsM0hXOWwyQWRiWlpESS1mNm1zTDE5cEhpVmV4TWxHWmRyNEVBZVYxS1JJY2NEa3lzMVFRS2tzSjdYdzZ6U0w1V0RfLUtoMXlJUjA3VWFqZTlmZWpiQUszT1pDQ3ZxakwwdEFQV1gyTGNaMTdfNlBVRURGbXM?oc=5) (IOL)
 
-_AI analyst (openai/gpt-oss-120b via Groq), fact-checked by code: all figures matched the source data. Not investment advice._
+_AI analyst (openai/gpt-oss-120b via Groq), fact-checked by code: 1 unsupported line(s) removed. Not investment advice._
